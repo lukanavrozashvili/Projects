@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Poppins&family=Work+Sans&display=swap');
+
+
+#iconbar {
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#site_navigation ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    font-family: Poppins;
+}
+
+#site_navigation ul li a {
+    text-decoration: none;
+    color: #EEE7DA;
+}
+
+.main {
+    display: flex;
+    padding: 5%;
+    font-size: xx-large;
+    color: #C2FAF1;
+    font-family: Kanit;
+    border-radius: 100px;
+    justify-content: space-between;
+    margin: 5%;
+    font-size: 70px;
+}
+
+nav a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 570;
+    margin-left: 35px;
+    transition: .3s ease;
+}
+
+.about img {
+    border-radius: 100px;
+    padding: 3%;
+    margin: 0%;
+    height: 290px;
+    display: block;
+    float: right;
+}
+
+.about h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+    font-size: 60px;
+}
+
+.about p {
+    color: #EEE7DA;
+    font-family: 'Poppins';
+    font-size: 22px;
+    display: flex;
+    width: 50%;
+    padding: 2%;
+    margin: 2%;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #1a1a1a, #2b2b2b);
+    color: #fff;
+}
+
+nav {
+    background: linear-gradient(to right, #2b2b2b, #000);
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.contact-form {
+    background: linear-gradient(to right, #2b2b2b, #000);
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    padding: 100px;
+    width: 450px;
+    max-width: 80%;
+    margin: 250px auto;
+    text-align: center;
+    height: 400px;
+    display: block;
+    justify-content: flex-end;
+}
+
+h2 {
+    color: darkgreen;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: darkgreen;
+    font-weight: bold;
+    text-align: left;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s forwards;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-bottom: 16px;
+    transition: border-color 0.3s ease-in-out;
+    background: linear-gradient(to right, #2b2b2b, #000);
+    color: #fff;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s forwards;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #fff;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #ffc7ff;
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background: linear-gradient(to right, #000, #2b2b2b);
+    color: #089903;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s forwards;
+}
+
+button:hover {
+    background: linear-gradient(to right, #000);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#switcher {
+
+    margin-left: 1800px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+#contxt {
+    font-size: 30px;
+}
+
+html {
+    scroll-behavior: smooth;
+}

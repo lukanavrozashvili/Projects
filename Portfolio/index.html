@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<style>
+</style>
+
+<body>
+    <nav class="navigate">
+        <nav id="site_navigation">
+            <ul id="iconbar">
+                <li><a href="#main">Home</a></li>
+                <li><a href="#information">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="main">
+            <h3 id="main">Hello, my name is Luka Navrozashvili and this is my Portfolio.</h3>
+        </div>
+        <div class="about">
+            <h2 id="information">About Me</h2>
+            <img class="img_deg" src="../Portfolio/me.jfif">
+            <p>I am 15 years old and learning programming in GOA(Goal Oriented-academy) and i live in Tbilisi. Lorem,
+                ipsum dolor sit amet consectetur adipisicing elit. Doloremque nulla deserunt possimus, voluptatum
+                dolores perspiciatis fugit, nostrum officiis nam iste consequatur quasi magnam quae illum asperiores
+                velit aliquam distinctio nemo.</p>
+        </div>
+        <div id="contact" class="contact-form">
+            <h2>Contact Me</h2>
+            <form id="contactform">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Your Email (Gmail only):</label>
+                <input type="email" id="email" name="email" placeholder="Enter your Gmail address"
+                    pattern="[a-z0-9._%+-]+@gmail.com$" title="Please enter a valid Gmail address" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Enter your message" minlength="5"
+                    maxlength="50" required></textarea>
+
+                <button type="button" onclick="submitForm()">Submit</button>
+            </form>
+        </div>
+    </nav>
+</body>
+
+</html>
