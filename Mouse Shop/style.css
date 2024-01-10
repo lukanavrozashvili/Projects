@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Poppins&family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    background-color: #000;
+    transition: .2s ease;
+}
+
+.side-menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    font-size: 40px;
+    font-weight: 580;
+}
+
+.side-menu ul li a {
+    text-decoration: none;
+    color: #EEE7DA;
+}
+
+#home {
+    color: #B0DAFF;
+    font-family: Kanit;
+    font-size: 90px;
+    height: 700px;
+    text-align: center;
+    padding: 10%;
+}
+
+#about {
+    height: 100px;
+}
+
+#about h3 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+    font-size: 60px;
+    height: 250px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.column {
+    width: 430px;
+    padding: 90px;
+}
+
+.row::after {
+    content: "";
+}
+.row{
+    display:flex;
+    flex-wrap:wrap;
+}
+.row h2 {
+    color: #fff;
+    margin: 30px;
+    font-size: 24px;
+}
+
+#logitic {
+    color: #fff;
+    padding: 30px;
+}
+
+#razer {
+    color: #fff;
+    font-size: 15px;
+    padding: 20px;
+}
+
+#glorus {
+    padding: 15px;
+    height: 600px;
+    color: #fff;
+}
+
+.mouse {
+    height:325px;
+}
+
+div.register {
+    text-align: center;
+    width: 500px;
+    font-size: 18px;
+    color: #fff;
+    padding: 30px;
+    width: 100%;
+}
+form#register {
+    margin: 40px;
+}
+
+label {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+
+input#name {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+input#submit {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+
