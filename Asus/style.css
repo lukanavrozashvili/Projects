@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Poppins&family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+h1 {
+    font-family: 'Work Sans';
+    font-size: 50px;
+    padding: 2%;
+    width: 100%;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+    gap: 3%;
+    margin-right: 5%;
+    align-items: center;
+    background-color: darkgray;
+    width: 100%;
+}
+
+#menu li {
+    color: #000;
+    font-size: 20px;
+    font-family: 'Work Sans';
+    font-weight: 500;
+}
+
+h2 {
+    font-family: 'Work Sans';
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
