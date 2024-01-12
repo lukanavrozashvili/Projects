@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    list-style: none;
 }
 
 h1 {
@@ -23,6 +22,7 @@ h1 {
     align-items: center;
     background-color: darkgray;
     width: 100%;
+    list-style: none;
 }
 
 #menu li {
@@ -38,4 +38,214 @@ h2 {
     display: flex;
     justify-content: center;
     margin: 5%;
+}
+
+.award  {
+    height: 30rem;
+}
+
+.for-work {
+    background-color: #00000031;
+    border-radius: 10px;
+    border: 3px solid black;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    margin-top: 3%;
+}
+
+img {
+    border-radius: 10px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Work Sans';
+    font-size: 35px;
+    padding: 2%;
+}
+
+.for-work li {
+    font-family: 'Work Sans';
+    font-weight: 600;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background-color: grey;
+}
+
+body:hover::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+}
+
+.work-list ul {
+    margin-left: 54%;
+    margin-top: 5%;
+}
+
+.for-work img {
+    margin-top: -32%;
+}
+
+.desktop {
+    background-color: #00000031;
+    border-radius: 10px;
+    border: 3px solid black;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    margin-top: 3%;
+}
+
+.desktop h4 {
+    margin-left: 68%;
+    font-family: 'Work Sans';
+    font-size: 25px;
+}
+
+.desktop p {
+    margin-left: 54%;
+    margin-top: 5%;
+    font-family: 'Work Sans';
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.desktop img {
+    margin-top: -17%;
+}
+
+.monitor {
+    background-color: #00000031;
+    border-radius: 10px;
+    border: 3px solid black;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    margin-top: 3%;
+}
+
+.monitor-list ul {
+    margin-left: 54%;
+    margin-top: 5%;
+    font-family: 'Work Sans';
+    font-weight: 600;
+}
+
+.monitor img {
+    margin-top: -40%;
+    height: 420px;
+}
+
+.motherboard {
+    background-color: #00000031;
+    border-radius: 10px;
+    border: 3px solid black;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    margin-top: 3%;
+}
+
+.motherboard ul li{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.motherboard-list ul{
+    margin-left: 54%;
+    margin-top: 5%;
+    font-family: 'Work Sans';
+}
+
+.motherboard img {
+    margin-top: -40%;
+    height: 410px;
+}
+
+div.register {
+    text-align: center;
+    width: 500px;
+    font-size: 18px;
+    color: #000;
+    padding: 30px;
+    width: 100%;
+}
+
+form#register {
+    margin: 40px;
+}
+
+label {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+
+input#name {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+input#submit {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+label,
+span,
+h2 {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.dropdown button {
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown a{
+    display: block;
+    color: rgb(254, 254, 254);
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.dropdown .contect {
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+}
+
+.dropdown:hover .content {
+    display: block;
+}
+
+.dropdown:hover button {
+    background-color: hsl(0, 0%, 70%);
+}
+
+.dropdown a:hover {
+    background-color: hsl(0, 0%, 90%);
 }
