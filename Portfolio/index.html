@@ -1,76 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
-    <nav class="navigate">
-        <nav id="site_navigation">
-            <ul id="iconbar">
-                <li><a href="#main">Home</a></li>
-                <li><a href="#information">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="main">
-            <h3 id="main">Hello, my name is Luka Navrozashvili and this is my Portfolio.</h3>
-        </div>
-        <div class="about">
-            <h2 id="information">About Me</h2>
-            <img class="img_deg" src="../Portfolio/me.jfif">
-            <p>I am 15 years old and learning programming in GOA(Goal Oriented-academy) and i live in Tbilisi. Lorem,
-                ipsum dolor sit amet consectetur adipisicing elit. Doloremque nulla deserunt possimus, voluptatum
-                dolores perspiciatis fugit, nostrum officiis nam iste consequatur quasi magnam quae illum asperiores
-                velit aliquam distinctio nemo.</p>
-        </div>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <header id="home">
+        <h1>Hello, my name is Luka Navrozashvili and this is my Portfolio.</h1>
+    </header>
+    <section id="about">
         <div class="container">
-            <div class="skills">
-                <h4 id="skills">My skills</h4>
-            </div>
+            <h2>About Me</h2>
+            <img src="./me.jfif" alt="Luka Navrozashvili">
+            <p>I am 15 years old and learning programming at GOA (Goal Oriented-academy) in Tbilisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nulla deserunt possimus, voluptatum dolores perspiciatis fugit, nostrum officiis nam iste consequatur quasi magnam quae illum asperiores velit aliquam distinctio nemo.</p>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="container">
+            <h2>My Skills</h2>
             <div class="skill-list">
                 <div>
-                    <h6>Web Development</h6>
+                    <h3>Web Development</h3>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem adipisci veniam dolores excepturi vel quos, culpa voluptates commodi neque</p>
                     <a href="#more">More</a>
                 </div>
                 <div>
-                    <h6>Game Development</h6>
+                    <h3>Game Development</h3>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem adipisci veniam dolores excepturi vel quos, culpa voluptates commodi neque</p>
                     <a href="#more">More</a>
                 </div>
                 <div>
-                    <h6>Web Design</h6>
+                    <h3>Web Design</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptate ullam reprehenderit soluta doloremque? A nemo quod dolorem laborum debitis error distinctio, mollitia ipsum nihil illum.</p>
                     <a href="#more">More</a>
                 </div>
             </div>
-
         </div>
-
-        <div id="contact" class="contact-form">
+    </section>
+    <section id="contact">
+        <div class="container">
             <h2>Contact Me</h2>
-            <form id="contactform">
+            <form id="contact-form">
                 <label for="name">Your Name:</label>
                 <input type="text" id="name" name="name" placeholder="Enter your name" required>
-
                 <label for="email">Your Email (Gmail only):</label>
-                <input type="email" id="email" name="email" placeholder="Enter your Gmail address"
-                    pattern="[a-z0-9._%+-]+@gmail.com$" title="Please enter a valid Gmail address" required>
-
+                <input type="email" id="email" name="email" placeholder="Enter your Gmail address" pattern="[a-z0-9._%+-]+@gmail.com$" title="Please enter a valid Gmail address" required>
                 <label for="message">Your Message:</label>
-                <textarea id="message" name="message" rows="4" placeholder="Enter your message" minlength="5"
-                    maxlength="50" required></textarea>
-
-                <button type="button" onclick="submitForm()">Submit</button>
+                <textarea id="message" name="message" rows="4" placeholder="Enter your message" minlength="5" maxlength="50" required></textarea>
+                <button type="submit">Submit</button>
             </form>
         </div>
-    </nav>
+    </section>
 </body>
-
 </html>

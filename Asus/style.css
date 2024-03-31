@@ -32,6 +32,10 @@ h1 {
     font-weight: 500;
 }
 
+#menu li:hover {
+    color: red;
+}
+
 h2 {
     font-family: 'Work Sans';
     font-size: 100px;

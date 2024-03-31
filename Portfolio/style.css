@@ -7,6 +7,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box
 }
 
 #iconbar {
@@ -32,7 +33,6 @@
 .main {
     display: flex;
     padding: 5%;
-    font-size: xx-large;
     color: #B0DAFF;
     font-family: Kanit;
     border-radius: 100px;
@@ -115,7 +115,7 @@ nav a {
 }
 
 h2 {
-    color: darkgreen;
+    color: rgb(255, 255, 255);
     margin-bottom: 20px;
     font-size: 24px;
     font-weight: bold;
@@ -135,7 +135,7 @@ label {
     display: block;
     font-size: 14px;
     margin-bottom: 8px;
-    color: darkgreen;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     text-align: left;
     opacity: 0;
@@ -177,7 +177,7 @@ textarea {
 
 button {
     background: linear-gradient(to right, #000, #2b2b2b);
-    color: #089903;
+    color: #ffffff;
     padding: 12px 24px;
     border: none;
     border-radius: 6px;
@@ -255,8 +255,11 @@ html {
 }
 
 .skill-list h6{
-
     font-size: 40px;
     padding: 7%;
     margin: 7%;
+}
+
+#more {
+    padding: 50px;
 }
