@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit';
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    background: rgba(192, 187, 187, 0.233);
+    height: 100vh;
+}
+
+::-webkit-scrollbar {
+    height: .5rem;
+    width: .5rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #A024EE;
+}
+
+h1:hover {
+    cursor: pointer;
+}
+
+.title {
+    color: #A024EE;
+}
+
+.title2 {
+    color: black;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.home-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50%;
+    padding: 1rem;
+    height: 100;
+    background-color: rgb(80, 80, 80);
+    color: white;
+    flex-wrap: wrap;
+}
+
+.home-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.home-div a {
+    color: white;
+    transition: .3s;
+}
+
+.home-div a:hover,
+.home-div a:active {
+    color: #A024EE;
+    transform: scale(0.9, 0.9);
+    text-shadow: 0px 8px 15px #A024EE;
+    font-size: 25px
+}
+
+.home-div:hover>a:not(:hover) {
+    filter: blur(2px);
+}
+
+#myself {
+    border: 3px solid black;
+    border-radius: 10rem;
+    filter: drop-shadow(1px 1px 20px #A024EE);
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 2s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-40px);
+    }
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-40px);
+    }
+}
+
+#myself:hover {
+    cursor: pointer;
+}
+
+#my-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    gap: 150px;
+}
+
+#my-info h2 {
+    font-size: 30px;
+}
+
+#my-info button:hover {
+    transform: scale(1.1, 1.1);
+    background-color: #A024EE;
+    color: white;
+    border: none;
+}
+
+.socials a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background: transparent;
+    border: 0.2rem solid #A024EE;
+    font-size: 2rem;
+    border-radius: 100px;
+    color: #A024EE;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+    transition: 0.3s ease;
+}
+
+.socials a:hover {
+    color: white;
+    transform: scale(1.2)translateY(-5px);
+    background: #A024EE;
+}
+
+img {
+    width: 300px;
+
+}
+
+h2 em {
+    color: #A024EE;
+    text-shadow: 1px 1px 15px 1px #A024EE;
+}
+
+.hire{
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 15px;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    color: #A024EE;
+    cursor: pointer;
+    transition: .3s;
+    border: 1px solid #111111;
+}
+
+.hire:hover {
+    transform: scale(1.1, 1.1);
+    background-color: #A024EE;
+    color: white;
+    border: none;
+}
+
+.auto-type {
+    color: #A024EE;
+    text-shadow: 1px 1px 20px #A024EE;
+    text-shadow: 1px 20px 20px #A024EE;
+    text-shadow: 1px 1px 20px #A024EE;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+#about {
+    height: 300px;
+}
+
+#about h2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    height: 70px;
+}
+
+#about p {
+    padding: 15px;
+    color: #111111;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 23.5px;
+    margin: 30px;
+}
+
+b {
+    color: #A024EE;
+}
+
+.skills-title {
+    display: flex;
+    justify-content: center;
+    color: #111111;
+}
+
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: white;
+}
+
+.footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: black;
+}
+
+.footer .social a {
+    font-size: 30px;
+    width: 45px;
+    height: 45px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: 0.3 ease;
+}
+
+.footer ul {
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer ul li a {
+    color: #111111;
+    border-bottom: 3px solid transparent;
+    transition: 0.5s ease;
+}
+
+.footer ul li a:hover {
+    border-bottom: 3px solid #111111;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+footer .copyright {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: #111111;
+}
+
+#skills {
+    width: 100%;
+    padding: 20px ;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+
+.skill-name {
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    color: #A024EE;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.skill-bar {
+    height: 14px;
+    background: #111111;
+    border-radius: 10px;
+}
+
+.skill-per {
+    height: 14px;
+    background: #A024EE;
+    border-radius: 10px;
+    position: relative;
+    animation: fillBars 2.5s 1;
+}
+
+.skill-per::before {
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    margin: -5px;
+    background: #111111;
+    color: #A024EE;
+    border-radius: 5px;
+    font-size: 12px;
+    top: -35px;
+    right: 0;
+    transform: translateY(50%);
+}
+
+
+@keyframes fillBars {
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+.service-title {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    justify-items: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.box {
+    background-color: white;
+    width: 190px;
+    height: 240px;
+    border-radius: 20px;
+    border: 1px solid #111111;
+    transition: .6s;
+}
+
+.box h3 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.box p {
+    padding: 15px;
+}
+
+.box:hover {
+    cursor: pointer;
+    background: #A024EE;
+    transform: scale(1.1, 1.1);
+    color: white;
+}
+
+
+.social a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background: transparent;
+    border: 0.2rem solid #A024EE;
+    font-size: 2rem;
+    border-radius: 100px;
+    color: #A024EE;
+    transition: 0.3s ease;
+}
+
+.social a:hover {
+    color: white;
+    transform: scale(1.2)translateY(-5px);
+    background: #A024EE;
+}
+
